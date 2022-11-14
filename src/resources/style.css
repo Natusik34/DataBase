@@ -1,0 +1,6 @@
+.background{
+    -fx-background-image: url(Fon.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1206 704 ;
+    -fx-background-position: center center;
+}
