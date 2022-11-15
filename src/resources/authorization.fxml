@@ -7,34 +7,33 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1206.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="436.0" layoutY="167.0" prefHeight="369.0" prefWidth="334.0" styleClass="pane" stylesheets="@style.css">
+      <Pane layoutX="436.0" layoutY="206.0" prefHeight="330.0" prefWidth="334.0" styleClass="pane" stylesheets="@style.css">
          <children>
             <Label layoutX="92.0" layoutY="32.0" text="Авторизация" textFill="#803e3e">
                <font>
                   <Font size="25.0" />
                </font>
             </Label>
-            <Label layoutX="139.0" layoutY="111.0" text="логин" textFill="#8f5858">
+            <Label layoutX="139.0" layoutY="85.0" text="логин" textFill="#8f5858">
                <font>
                   <Font size="17.0" />
                </font>
             </Label>
-            <Label layoutX="139.0" layoutY="199.0" text="логин" textFill="#8f5858">
+            <Label layoutX="134.0" layoutY="159.0" text="пароль" textFill="#8f5858">
                <font>
                   <Font size="17.0" />
                </font>
             </Label>
-            <TextField layoutX="58.0" layoutY="160.0" prefHeight="25.0" prefWidth="221.0" styleClass="inputText" stylesheets="@style.css" />
-            <TextField layoutX="58.0" layoutY="225.0" prefHeight="25.0" prefWidth="221.0" styleClass="inputText" stylesheets="@style.css" />
-            <Button layoutX="101.0" layoutY="274.0" mnemonicParsing="false" prefHeight="2.0" prefWidth="135.0" text="Вход" textFill="#8f5858">
+            <TextField layoutX="58.0" layoutY="124.0" prefHeight="25.0" prefWidth="221.0" styleClass="inputText" stylesheets="@style.css" />
+            <TextField layoutX="58.0" layoutY="196.0" prefHeight="25.0" prefWidth="221.0" styleClass="inputText" stylesheets="@style.css" />
+            <Button layoutX="108.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Вход" textFill="#8f5858">
                <font>
-                  <Font size="25.0" />
+                  <Font size="20.0" />
                </font>
             </Button>
-            <Label layoutX="126.0" layoutY="334.0" text="Регистрация" textFill="#8f5858">
+            <Label layoutX="126.0" layoutY="306.0" text="Регистрация" textFill="#8f5858">
                <font>
                   <Font size="15.0" />
                </font>

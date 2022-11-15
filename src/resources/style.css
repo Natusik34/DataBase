@@ -1,5 +1,5 @@
 .background{
-    -fx-background-image: url(Fon.jpg);
+    -fx-background-image: url(fon.jpg);
     -fx-background-repeat: no-repeat;
     -fx-background-size: 1206 704 ;
     -fx-background-position: center center;
@@ -14,4 +14,7 @@
 .inputText{
 -fx-border-radius: 5;
         -fx-background-radius: 20;
+}
+.paneWorkPage{
+-fx-background-color: rgba(238, 223, 223, 0.70);
 }
