@@ -13,10 +13,8 @@ public class Main {
       //  String username = scanner.nextLine();
       //  System.out.println("Enter password");
       //  String password = scanner.nextLine();
-        DBConnection.Insert();
-
-
-
+        //DBConnection.Insert();
+        DBConnection.Update();
 
     }
 }
