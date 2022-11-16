@@ -17,7 +17,7 @@
             <Pane prefHeight="667.0" prefWidth="206.0" style="-fx-background-color: D9D9D9;">
                <children>
                   <Pane layoutY="112.0" prefHeight="29.0" prefWidth="207.0" style="-fx-background-color: A59B9B;" />
-                  <Pane layoutX="-2.0" layoutY="176.0" prefHeight="29.0" prefWidth="215.0" style="-fx-background-color: #312828;">
+                  <Pane layoutY="176.0" prefHeight="29.0" prefWidth="207.0" style="-fx-background-color: #847272;">
                      <children>
                         <Label layoutX="54.0" layoutY="5.0" text="Номенклатура" textFill="WHITE">
                            <font>
@@ -26,7 +26,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane layoutY="220.0" prefHeight="29.0" prefWidth="207.0" style="-fx-background-color: #847272;">
+                  <Pane layoutY="220.0" prefHeight="29.0" prefWidth="215.0" style="-fx-background-color: #312828;">
                      <children>
                         <Label layoutX="65.0" layoutY="4.0" text="Поставщик" textFill="WHITE">
                            <font>
@@ -95,11 +95,13 @@
                         <Image url="@output.png" />
                      </image>
                   </ImageView>
-                  <TableView layoutX="20.0" layoutY="14.0" prefHeight="590.0" prefWidth="502.0">
+                  <TableView layoutX="20.0" layoutY="14.0" prefHeight="590.0" prefWidth="680.0">
                     <columns>
                       <TableColumn text="ID" />
-                      <TableColumn prefWidth="239.0" text="Наименование" />
-                        <TableColumn prefWidth="181.0" text="Единица измерения" />
+                      <TableColumn prefWidth="181.0" text="Наименование" />
+                        <TableColumn prefWidth="185.0" text="Номер телефона" />
+                        <TableColumn prefWidth="114.0" text="ИНН" />
+                        <TableColumn prefWidth="118.0" text="КПП" />
                     </columns>
                   </TableView>
                   <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="856.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
