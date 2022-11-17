@@ -12,6 +12,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import static java.sql.DriverManager.getConnection;
 import javafx.application.Application;
+import  java.lang.ClassNotFoundException;
 
 public class Main extends Application {
     @Override
