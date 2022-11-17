@@ -14,7 +14,8 @@ public class Main {
       //  System.out.println("Enter password");
       //  String password = scanner.nextLine();
         //DBConnection.Insert();
-        DBConnection.Update();
+        //DBConnection.Update();
+        DBConnection.Delete();
 
     }
 }
