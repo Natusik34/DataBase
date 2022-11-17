@@ -94,7 +94,6 @@ public class DBConnection {
 /*
     //обновление данных
     public  static void Update(){
-
         //обновление данных в таблице единица измерения
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -102,7 +101,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         //обновление данных в таблице склад
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -110,19 +108,13 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         //обновление данных в таблице номенклатура
-
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
             int updateNomenklatyra = statement.executeUpdate("UPDATE public.nomenklatyra SET naimenovanie = 'Аи-92', id_izmerenie = '2' WHERE id_nomenklatyra = '1'");
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
         //обновление данных в таблице поставщик
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -130,11 +122,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
         //обновление данных в таблице поставка
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -142,11 +129,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
         //обновление данных в таблице продажа
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -154,11 +136,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
         //обновление данных в таблице номенклатура поставки
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -166,13 +143,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
-
-
         //обновление данных в таблице номенклатура продажи
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -180,11 +150,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
         //обновление данных в таблице товар склад
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -192,53 +157,45 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
     }
 */
     //удаление
     public  static void Delete(){
-        /*
+/*
+//сделано
+
         //удаление данных в таблице единица измерения
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
-            int deleteIzmenenie = statement.executeUpdate("DELETE FROM public.izmerenie WHERE id_izmerenie = '1'");
+            int deleteIzmenenie = statement.executeUpdate("DELETE FROM public.izmerenie WHERE id_izmerenie = '3'");
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
+//сделано
         //удаление данных в таблице склад
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
-            int deleteCklad = statement.executeUpdate("DELETE FROM public.cklad WHERE id_cklad = '1'");
+            int deleteCklad = statement.executeUpdate("DELETE FROM public.cklad WHERE id_cklad = '3'");
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
+        //сделано
         //удаление данных в таблице номенклатура
-
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
-            int deleteNomenklatyra = statement.executeUpdate("DELETE FROM public.nomenklatyra WHERE id_nomenklatyra = '1'");
+            int deleteNomenklatyra = statement.executeUpdate("DELETE FROM public.nomenklatyra WHERE id_nomenklatyra = '2'");
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-*/
-/*
+        //сделано
         //удаление данных в таблице поставщик
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
-            int deletePostavchik = statement.executeUpdate("DELETE FROM public.postavchik WHERE id_postavchik = '1'");
+            int deletePostavchik = statement.executeUpdate("DELETE FROM public.postavchik WHERE id_postavchik = '3'");
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-*/
-
 //сделано
-/*
         //удаление данных в таблице поставка
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -246,7 +203,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         //удаление данных в таблице продажа
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -254,11 +210,7 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-*/
-
 //сделано
-/*
         //удаление данных в таблице номенклатура поставки
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -266,13 +218,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-*/
-
-
-
-
-/*
         //удаление данных в таблице номенклатура продажи
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -280,11 +225,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-*/
-
-
-
-/*
         //удаление данных в таблице товар склад
         try {
             Statement statement = DBConnection("Vasiltsova", "Vasiltsova", "jdbc:postgresql://46.229.214.241:5432/vasiltsova_awtozaprawka").createStatement();
@@ -293,9 +233,7 @@ public class DBConnection {
             e.printStackTrace();
         }
 */
-
     }
-
 
     //изменение
 //int ro = statement.executeUpdate("UPDATE izmerenie SET naimenovanie");
